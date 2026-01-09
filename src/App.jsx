@@ -18,8 +18,6 @@ function App() {
           <Route index element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="project/:projectId" element={<Project />} />
-          <Route path="ventures" element={<Ventures />} />
-          <Route path="expertise" element={<Expertise />} />
         </Route>
       </Routes>
     </AnimatePresence>

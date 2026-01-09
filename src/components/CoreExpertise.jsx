@@ -82,8 +82,8 @@ const CoreExpertise = () => {
                         transition={{ duration: 0.6, delay: 0.1 }}
                         className="text-5xl md:text-6xl font-black mb-6 text-center"
                     >
-                        <span className="text-white">{t.coreExpertise.titleCore}</span>{" "}
-                        <span className="bg-gradient-to-r from-blue-500 to-accent-purple bg-clip-text text-transparent">
+                        <span className="text-white uppercase">{t.coreExpertise.titleCore}</span>{" "}
+                        <span className="text-blue-500 uppercase">
                             {t.coreExpertise.titleExpertise}
                         </span>
                     </motion.h2>

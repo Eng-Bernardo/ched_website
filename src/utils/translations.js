@@ -20,9 +20,9 @@ export const translations = {
             description: "A premier example of our \"Idea to System\" methodology. Abaco Finance represents the next generation of financial intelligence platforms, built for scalability and precision."
         },
         coreExpertise: {
-            tag: "//TechSystems",
-            titleCore: "Our tech Services",
-            titleExpertise: "we offer",
+            tag: "// WHAT WE DO",
+            titleCore: "ENGINEERING",
+            titleExpertise: "EXCELLENCE",
             description: "We move beyond simple coding. We apply engineering rigor to solve complex business problems.",
             cards: {
                 architecture: {
@@ -44,6 +44,10 @@ export const translations = {
             }
         },
         servicesSection: {
+            tag: "// WHAT WE DO",
+            titlePrefix: "ENGINEERING",
+            titleHighlight: "EXCELLENCE",
+            description: "We build the technology that powers your business growth.",
             items: [
                 { title: "Mobile App Development", description: "We develop secure and user-friendly native and cross-platform applications for iOS and Android that enhance user satisfaction. We work with you from ideation to launch to deliver top-notch apps tailored to your requirements." },
                 { title: "Web App Development", description: "Our web app development team is highly experienced in building feature-rich and scalable web apps. We put your audience first and design web applications that offer a flawless experience at every touchpoint." },
@@ -213,21 +217,38 @@ export const translations = {
         },
         footer: {
             tagline: "A software architecture lab dedicated to building high-performance systems and digital products. From idea to system.",
+            tagline: "A software architecture lab dedicated to building high-performance systems and digital products. From idea to system.",
+            sloganPrefix: "visionary into",
+            sloganHighlight: "Digital Reality",
             cols: {
                 lab: "LAB",
-                ecosystem: "ECOSYSTEM",
                 connect: "CONNECT"
             },
             links: {
                 manifesto: "Manifesto",
                 methodology: "Methodology",
                 careers: "Careers",
-                abaco: "Abaco Finance",
-                ventures: "Ventures",
-                openSource: "Open Source",
+                careers: "Careers",
                 contact: "Contact Us",
                 partnerships: "Partnerships"
-            }
+            },
+            offices: {
+                office1: {
+                    title: "Office Location",
+                    address: "Address Line 1 | City, State, Country"
+                },
+                office2: {
+                    title: "Second Office",
+                    address: "Address Line 1 | City, State, Country"
+                }
+            },
+            contactData: {
+                general: "General Inquiries",
+                newBusiness: "New Business",
+                email: "contact@chedlabs.com"
+            },
+            brandsLabel: "Our brands:",
+            followUs: "Follow us on Instagram and Linkedin"
         }
     },
     PT: {
@@ -251,9 +272,9 @@ export const translations = {
             description: "Um exemplo principal da nossa metodologia \"Da Ideia ao Sistema\". Abaco Finance representa a próxima geração de plataformas de inteligência financeira, construída para escalabilidade e precisão."
         },
         coreExpertise: {
-            tag: "// EXPERTISE",
-            titleCore: "EXPERTISE",
-            titleExpertise: "CENTRAL",
+            tag: "// O QUE FAZEMOS",
+            titleCore: "ENGENHARIA DE",
+            titleExpertise: "EXCELÊNCIA",
             description: "Vamos além da codificação simples. Aplicamos rigor de engenharia para resolver problemas de negócios complexos.",
             cards: {
                 architecture: {
@@ -275,6 +296,10 @@ export const translations = {
             }
         },
         servicesSection: {
+            tag: "// O QUE FAZEMOS",
+            titlePrefix: "ENGENHARIA DE",
+            titleHighlight: "EXCELÊNCIA",
+            description: "Construímos a tecnologia que impulsiona o crescimento do seu negócio.",
             items: [
                 { title: "Desenvolvimento de Apps Móveis", description: "Desenvolvemos aplicativos nativos e multiplataforma seguros e fáceis de usar para iOS e Android. Trabalhamos com você da ideação ao lançamento para entregar apps de alta qualidade sob medida." },
                 { title: "Desenvolvimento de Apps Web", description: "Nossa equipe é altamente experiente na criação de apps web ricos em recursos e escaláveis. Projetamos aplicações que oferecem uma experiência impecável em cada ponto de contato." },
@@ -444,21 +469,38 @@ export const translations = {
         },
         footer: {
             tagline: "Um laboratório de arquitetura de software dedicado a construir sistemas de alta performance e produtos digitais. Da ideia ao sistema.",
+            tagline: "Um laboratório de arquitetura de software dedicado a construir sistemas de alta performance e produtos digitais. Da ideia ao sistema.",
+            sloganPrefix: "visionário em",
+            sloganHighlight: "Digital Reality",
             cols: {
                 lab: "LABORATÓRIO",
-                ecosystem: "ECOSYSTEM",
                 connect: "CONECTAR"
             },
             links: {
                 manifesto: "Manifesto",
                 methodology: "Metodologia",
                 careers: "Carreiras",
-                abaco: "Abaco Finance",
-                ventures: "Ventures",
-                openSource: "Código Aberto",
+                careers: "Carreiras",
                 contact: "Fale Conosco",
                 partnerships: "Parcerias"
-            }
+            },
+            offices: {
+                office1: {
+                    title: "Localização do Escritório",
+                    address: "Endereço Linha 1 | Cidade, Estado, País"
+                },
+                office2: {
+                    title: "Segundo Escritório",
+                    address: "Endereço Linha 1 | Cidade, Estado, País"
+                }
+            },
+            contactData: {
+                general: "Consultas Gerais",
+                newBusiness: "Novos Negócios",
+                email: "contact@chedlabs.com"
+            },
+            brandsLabel: "Nossas marcas:",
+            followUs: "Siga-nos no Instagram e Linkedin"
         }
     },
     ES: {
@@ -482,9 +524,9 @@ export const translations = {
             description: "Un primer ejemplo de nuestra metodología \"De la Idea al Sistema\". Abaco Finance representa la próxima generación de plataformas de inteligencia financiera, construida para la escalabilidad y precisión."
         },
         coreExpertise: {
-            tag: "// EXPERIENCIA",
-            titleCore: "EXPERIENCIA",
-            titleExpertise: "CENTRAL",
+            tag: "// LO QUE HACEMOS",
+            titleCore: "INGENIERÍA DE",
+            titleExpertise: "EXCELENCIA",
             description: "Vamos más allá de la codificación simple. Aplicamos rigor de ingeniería para resolver problemas comerciales complejos.",
             cards: {
                 architecture: {
@@ -506,6 +548,10 @@ export const translations = {
             }
         },
         servicesSection: {
+            tag: "// LO QUE HACEMOS",
+            titlePrefix: "INGENIERÍA DE",
+            titleHighlight: "EXCELENCIA",
+            description: "Construimos la tecnología que impulsa el crecimiento de su negocio.",
             items: [
                 { title: "Desarrollo de Apps Móviles", description: "Desarrollamos aplicaciones nativas y multiplataforma seguras y fáciles de usar para iOS y Android. Trabajamos con usted desde la idea hasta el lanzamiento." },
                 { title: "Desarrollo de Apps Web", description: "Nuestro equipo tiene gran experiencia en la creación de aplicaciones web ricas en funciones y escalables. Diseñamos aplicaciones que ofrecen una experiencia impecable." },
@@ -675,21 +721,38 @@ export const translations = {
         },
         footer: {
             tagline: "Un laboratorio de arquitectura de software dedicado a construir sistemas de alto rendimiento y productos digitales. De la idea al sistema.",
+            tagline: "Un laboratorio de arquitectura de software dedicado a construir sistemas de alto rendimiento y productos digitales. De la idea al sistema.",
+            sloganPrefix: "visionario en",
+            sloganHighlight: "Digital Reality",
             cols: {
                 lab: "LABORATORIO",
-                ecosystem: "ECOSYSTEM",
                 connect: "CONECTAR"
             },
             links: {
                 manifesto: "Manifiesto",
                 methodology: "Metodología",
                 careers: "Carreras",
-                abaco: "Abaco Finance",
-                ventures: "Ventures",
-                openSource: "Código Abierto",
+                careers: "Carreras",
                 contact: "Contáctenos",
                 partnerships: "Asociaciones"
-            }
+            },
+            offices: {
+                office1: {
+                    title: "Ubicación de la Oficina",
+                    address: "Dirección Línea 1 | Ciudad, Estado, País"
+                },
+                office2: {
+                    title: "Segunda Oficina",
+                    address: "Dirección Línea 1 | Ciudad, Estado, País"
+                }
+            },
+            contactData: {
+                general: "Consultas Generales",
+                newBusiness: "Nuevos Negocios",
+                email: "contact@chedlabs.com"
+            },
+            brandsLabel: "Nuestras marcas:",
+            followUs: "Síguenos en Instagram y Linkedin"
         }
     }
 };

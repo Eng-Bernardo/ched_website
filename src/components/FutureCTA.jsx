@@ -39,7 +39,7 @@ const FutureCTA = () => {
                     >
                         {t.futureCTA.titlePrefix} <br className="hidden md:block" />
                         <span className="text-transparent bg-clip-text bg-gradient-to-b from-white to-white/50">{t.futureCTA.titleHighlight}</span> <br className="hidden md:block" />
-                        <span className="text-transparent" style={{ WebkitTextStroke: '2px #3b82f6' }}>{t.futureCTA.titleSuffix}</span>
+                        <span className="text-transparent hover:text-blue-500 transition-colors duration-500 cursor-default" style={{ WebkitTextStroke: '2px #3b82f6' }}>{t.futureCTA.titleSuffix}</span>
                     </motion.h2>
 
                     {/* Central Visual - The Image Cutout effect (simulated with masking/borders for now as we have a full rect image) */}

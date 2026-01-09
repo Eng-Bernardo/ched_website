@@ -26,9 +26,8 @@ const Header = () => {
   const location = useLocation();
 
   const navLinks = [
-    { name: t.nav.ventures, href: '/ventures' },
-    { name: t.nav.expertise, href: '/expertise' },
-    { name: t.nav.theLab, href: '/#about' },
+    { name: t.nav.services || 'Serviços', href: '/#services' },
+    { name: t.nav.work || 'Portfolio', href: '/#work' },
   ];
 
   const handleScroll = () => {
